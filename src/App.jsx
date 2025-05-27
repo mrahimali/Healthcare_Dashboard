@@ -3,7 +3,7 @@ import Calender from "./components/DashboardMainContent/CalendarView/Calender";
 import DashboardOverview from "./components/DashboardMainContent/DashboardOverview/DashboardOverview";
 import SimpleAppointmentCard from "./components/DashboardMainContent/UpcomingSchedule/SimpleAppointmentCard ";
 import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/SIdebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
