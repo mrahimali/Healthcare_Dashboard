@@ -1,0 +1,70 @@
+.anatomy-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* keeps it responsive inside card */
+}
+
+img{
+    width: 100%;
+}
+.heart {
+  position: absolute;
+
+  transform: translate(50%, -100%);
+  background-color: #2113e9;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.anatomy-container .heart{
+    position: absolute;
+    left: 30%;
+    top: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 19, 233);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    
+}
+.heart-icon{
+    margin-right: 5px;
+}
+
+.anatomy-container .legs{
+    position: absolute;
+    left: 19%;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.legs {
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  transform: translate(-30%, 20%);
+  background-color: #00e0e0;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.legs-icon{
+    margin-right: 5px;
+}

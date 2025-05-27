@@ -1,0 +1,117 @@
+.calendarWrapper {
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.calendarGrid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.dayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 8px;
+  border-radius: 10px;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.activeColumn {
+  background-color: #e6eeff;
+}
+
+.dayLabel {
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #6c6c6c;
+}
+
+.dateLabel {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.timeSlot {
+  margin: 4px 0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #333;
+  background-color: transparent;
+}
+
+.highlightedTime {
+  background-color: #4e61ff;
+  color: white;
+}
+
+.cardsWrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e6eeff;
+  border-radius: 16px;
+  padding: 16px;
+  min-width: 230px;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.cardTime {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.cardDoctor {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.dentist {
+  background-color: #5b67e2;
+  color: white;
+}
+
+.dentist .cardTime,
+.dentist .cardDoctor {
+  color: white;
+}
+
+.physio {
+  background-color: #e6eeff;
+}
+@media screen and (max-width: 1260px) {
+  .calendarWrapper {
+  border-radius: 16px;
+  padding: 20px;
+  width: 20%;
+  max-width: 800px;
+  font-family: 'Segoe UI', sans-serif;
+}
+}

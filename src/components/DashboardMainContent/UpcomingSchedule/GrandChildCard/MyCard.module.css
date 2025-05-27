@@ -1,0 +1,16 @@
+.conatiner{
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-right: 25px;
+}
+.icon{
+    margin-left: 25px;
+    color: rgb(228, 143, 143);
+}

@@ -1,0 +1,40 @@
+.sidebar {
+  position: relative;
+}
+
+.sidebarMenu {
+  background-color: rgb(227, 235, 235);
+  list-style: none;
+  padding: 10px;
+  height: 100vh;
+}
+
+.text {
+  margin: 28px;
+  color: #bebebe;
+}
+
+.sidebarMenu li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+.sidebarMenu li:hover {
+  background: #e6f0ff;
+  border-radius: 8px;
+}
+
+.active {
+  color: #030303;
+}
+
+.setting {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

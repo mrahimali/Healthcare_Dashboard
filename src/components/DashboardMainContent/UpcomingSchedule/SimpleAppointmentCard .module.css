@@ -1,0 +1,9 @@
+.container{
+     background-color: rgb(227, 235, 235);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.span{
+    font-size: large;
+    padding:20px;
+}

@@ -1,0 +1,29 @@
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.title{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: rgb(52, 52, 241);
+}
+.filter{
+    display: flex;
+    align-items: center;
+    color: rgb(52, 52, 241);
+}
+.Mysection{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1260px) {
+  .Mysection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+}
+
